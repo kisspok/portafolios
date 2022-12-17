@@ -1,0 +1,52 @@
+:root {
+    font-family: 'Poppins', sans-serif;
+}
+.navbar {
+    background-color: #d2cadf;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.navbar .list {
+    display: flex;
+}
+.navbar .list .list-item a {
+    margin-left: 10px;
+    text-decoration: none; 
+    font-size: small;
+
+}
+.navbar .list .list-item a, .navbar {
+    color: rgb(10, 1, 1); 
+}
+.cabecera {
+    width: 100%;
+    height: auto;
+}
+h2, h3 {
+    text-align: center;
+    height: 10px;
+    padding: 10px;
+    font-family: 'Poppins';
+}
+main {
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+.separacion {
+    background-color: black;
+    width: 15vw;
+}
+.container {
+    background-color:#d2cadf;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    text-align: center;
+}
+.parrafo {
+    line-height: 5vw;
+    padding-top: 20px;
+}
