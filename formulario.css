@@ -1,0 +1,47 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+form {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: normal;
+    padding: 10px 10px 10px 10px;
+    width: auto;
+    min-height: 10vh; 
+    margin-top: 3%;  
+}
+.formulario .registro {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    background-color: #d2cadf;
+    padding: 20px 10px 20px 20px;
+    border: 1px;
+}
+.enviar {
+    background-color: var(--main-color);
+    border: solid;
+    padding: auto;
+}
+.elige {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    min-height: 10vh; 
+    box-sizing: content-box;
+}
+.separacion {
+    text-align: center;
+}
+.seleciona {
+    padding-top: 20px;
+}
+.diferente {
+    text-align: left;
+    margin-block-end: 20px;
+
+}

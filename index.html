@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="transiciones.css">
+    <link rel="stylesheet" href="formulario.css">
 </head>
 <nav class="navbar">
     <h1>Penélope Navarro</h1>
@@ -46,7 +46,7 @@
         <h2 id="yo">
             Sobre mí
         </h2>
-        <hr class="separacion">
+        <hr>
         <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
             Suscipit quos quae debitis fuga aut consequatur quas qui vitae itaque et saepe, 
             atque dolorum tenetur reiciendis temporibus deleniti cum. Sed, deserunt.
@@ -57,53 +57,63 @@
             Obcaecati, sequi ducimus?
         </P>
         <h2> Contacto</h2>
-        <hr class="separacion">
-        <form 
-        action="registro-completado.html" 
-        method="post"
-        >
-        <div>
-            <label for="Nombre">Nombre</label>
-            <input 
-            required 
-            name="Nombre-1" 
-            id="nombre" 
-            type="text" 
-            placeholder="Nombre">
-        </div>
-        <div>
-            <label for="Apellidos">Apellidos</label>
-            <input  
-            required 
-            name="Nombre-2" 
-            id="apellidos" 
-            type="text" 
-            placeholder="Apellidos">
-        </div>
-        <div>
-            <label for="Email">Email</label>
-            <input 
-            required 
-            name="correo" 
-            id="correo" 
-            type="email" 
-            placeholder="test@test.com">
-        </div>
-        <div>
-            <label for="Perfil">Teléfono</label>
-            <input 
-            required 
-            type="text" 
-            name="perfil" 
-            id="perfil" 
-            placeholder="Perfil de HitHub" 
-            pattern="[0-9]+">
-        </div>
-        <fieldset>
+        <section class="formulario">
+            <form class="registro"
+            action="registro-completado.html" 
+            method="post"
+            >
             <div>
-                <h3>Elige un favorito:</h3>
-                <hr class="separacion">
-                <div class="git"></div>
+                <label for="Nombre">Nombre</label>
+                <input class="rellena"
+                required 
+                name="Nombre-1" 
+                id="nombre" 
+                type="text" 
+                placeholder="Nombre">
+            </div>
+            <div>
+                <label for="Apellidos">Apellidos</label>
+                <input class="rellena"
+                required 
+                name="Nombre-2" 
+                id="apellidos" 
+                type="text" 
+                placeholder="Apellidos">
+            </div>
+            <div>
+                <label for="Email">Email</label>
+                <input class="rellena"
+                required 
+                name="correo" 
+                id="correo" 
+                type="email" 
+                placeholder="test@test.com">
+            </div>
+            <div>
+                <label for="Perfil">Teléfono</label>
+                <input class="rellena"
+                required 
+                type="text" 
+                name="perfil" 
+                id="perfil" 
+                placeholder="Telefono" 
+                pattern="[0-9]+">
+            </div>
+            <div>
+                <label for="Perfil">Perfin de HitHub</label>
+                <input class="rellena"
+                required 
+                type="text" 
+                name="perfil" 
+                id="perfil" 
+                placeholder="@hithub" 
+                pattern="/@([A-Za-z0-9_]{1,15})/">
+            </div>
+        </section>
+        <section>
+            <div>
+                <div class="seleciona"></div>
+                <h3 class="diferente">Elige un favorito:</h3>
                 <label for="git">Git</label>
                 <input 
                 type="radio" 
@@ -133,14 +143,10 @@
                 <div>
                     <button class="enviar" type="submit">Enviar</button>
                 </div>
-        </fieldset>
+        </section>
     </form>
     <section>
-        <hr class="separacion">
-        <h2 id="inspiracion">
-            Inspiración
-        </h2>
-        <hr class="separacion">
+        <h2 id="inspiracion">Inspiración</h2>
     </section>
     <section class="carousel-container">  
     <div class="carousel-slide">
