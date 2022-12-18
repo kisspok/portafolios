@@ -46,7 +46,6 @@
         <h2 id="yo">
             Sobre mí
         </h2>
-        <hr>
         <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
             Suscipit quos quae debitis fuga aut consequatur quas qui vitae itaque et saepe, 
             atque dolorum tenetur reiciendis temporibus deleniti cum. Sed, deserunt.
@@ -57,8 +56,7 @@
             Obcaecati, sequi ducimus?
         </P>
         <h2> Contacto</h2>
-        <section class="formulario">
-            <form class="registro"
+            <form class="formulario"
             action="registro-completado.html" 
             method="post"
             >
@@ -100,7 +98,7 @@
                 pattern="[0-9]+">
             </div>
             <div>
-                <label for="Perfil">Perfin de HitHub</label>
+                <label for="Perfil">@HitHub</label>
                 <input class="rellena"
                 required 
                 type="text" 
@@ -109,41 +107,34 @@
                 placeholder="@hithub" 
                 pattern="/@([A-Za-z0-9_]{1,15})/">
             </div>
-        </section>
-        <section>
-            <div>
-                <div class="seleciona"></div>
-                <h3 class="diferente">Elige un favorito:</h3>
+            <hr>
+            <fieldset>
+                <legend><strong>Elige tu favorito</strong></legend>
                 <label for="git">Git</label>
-                <input 
-                type="radio" 
+                <input type="radio" 
                 id="git" 
                 name="favorito" 
                 value="git">    
                 <label for="js">Javascript</label>
-                <input 
-                type="radio" 
+                <input type="radio" 
                 id="js" 
                 name="favorito" 
                 value="javascript">
                 <label for="python">Python</label>
-                <input 
-                type="radio" 
+                <input type="radio" 
                 id="python" 
                 name="favorito" 
                 value="python">
                 <label for="net">.NET</label>
-                <input 
-                type="radio" 
+                <input type="radio" 
                 id="net" 
                 name="favorito" 
                 value=".net">
-            </div>
+            </fieldset>
                 <textarea required maxlength="180" name="hablame" id="hablame"></textarea>
                 <div>
                     <button class="enviar" type="submit">Enviar</button>
                 </div>
-        </section>
     </form>
     <section>
         <h2 id="inspiracion">Inspiración</h2>
