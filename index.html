@@ -64,20 +64,19 @@
         method="post">
         <div>
             <label for="Nombre">Nombre</label>
-            <input name="Nombre-1" id="nombre" type="text" placeholder="Nombre">
+            <input required name="Nombre-1" id="nombre" type="text" placeholder="Nombre">
         </div>
         <div>
             <label for="Apellidos">Apellidos</label>
-            <input name="Nombre-2" id="apellidos" type="text" placeholder="Apellidos">
+            <input  required name="Nombre-2" id="apellidos" type="text" placeholder="Apellidos">
         </div>
         <div>
             <label for="Email">Email</label>
-            <input name="correo" id="" type="email" placeholder="test@test.com">
+            <input required name="correo" id="correo" type="email" placeholder="test@test.com">
         </div>
         <div>
             <label for="Teléfono">Teléfono</label>
-            <input type="submit" value="Enviar">
-            <button>Enviar</button>
+            <input required type="tel" name="telefono" id="telefono" placeholder="Teléfono">
         </div>
         <fieldset>
             <legend>Tu lenguaje de programación favorito</legend>
@@ -89,6 +88,10 @@
             <input type="radio" id="python" name="favorito" value="python">
             <label for="net">.NET</label>
             <input type="radio" id="net" name="favorito" value=".net">
+            <textarea required maxlength="180" name="hablame" id="hablame"></textarea>
+            <button type="submit">Enviar</button>
+        </fieldset>
+        <fieldset>
 
         </fieldset>
     </form>
