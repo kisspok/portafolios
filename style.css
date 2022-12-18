@@ -56,11 +56,10 @@ main {
 h1 {
     font-size: 1.2rem;
 }
-#nombre {
-
-  
-
-}
-body {
-    
+.carousel {
+    background-color: black;
+    width: 16px;
+    height: 16px;
+    display: block;
+    border-radius: 50%;
 }
