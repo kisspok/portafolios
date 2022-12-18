@@ -56,6 +56,8 @@
             Doloribus excepturi quos eligendi delectus facere at perspiciatis. 
             Obcaecati, sequi ducimus?
         </P>
+        <h2> Contacto</h2>
+        <hr class="separacion">
         <form 
         action="registro-completado.html" 
         method="post"
@@ -98,33 +100,39 @@
             pattern="[0-9]+">
         </div>
         <fieldset>
-            <legend>Tu lenguaje de programación favorito</legend>
-            <label for="git">Git</label>
-            <input 
-            type="radio" 
-            id="git" 
-            name="favorito" 
-            value="git">
-            <label for="js">Javascript</label>
-            <input 
-            type="radio" 
-            id="js" 
-            name="favorito" 
-            value="javascript">
-            <label for="python">Python</label>
-            <input 
-            type="radio" 
-            id="python" 
-            name="favorito" 
-            value="python">
-            <label for="net">.NET</label>
-            <input 
-            type="radio" 
-            id="net" 
-            name="favorito" 
-            value=".net">
-            <textarea required maxlength="180" name="hablame" id="hablame"></textarea>
-            <button type="submit">Enviar</button>
+            <div>
+                <h3>Elige un favorito:</h3>
+                <hr class="separacion">
+                <div class="git"></div>
+                <label for="git">Git</label>
+                <input 
+                type="radio" 
+                id="git" 
+                name="favorito" 
+                value="git">    
+                <label for="js">Javascript</label>
+                <input 
+                type="radio" 
+                id="js" 
+                name="favorito" 
+                value="javascript">
+                <label for="python">Python</label>
+                <input 
+                type="radio" 
+                id="python" 
+                name="favorito" 
+                value="python">
+                <label for="net">.NET</label>
+                <input 
+                type="radio" 
+                id="net" 
+                name="favorito" 
+                value=".net">
+            </div>
+                <textarea required maxlength="180" name="hablame" id="hablame"></textarea>
+                <div>
+                    <button class="enviar" type="submit">Enviar</button>
+                </div>
         </fieldset>
     </form>
     <section>
