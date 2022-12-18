@@ -60,6 +60,26 @@ h1 {
     background-color: black;
     width: 16px;
     height: 16px;
+    margin: 0 5px;
     display: block;
     border-radius: 50%;
+}
+.carousel-links {
+    display: flex;
+    justify-content: center;
+
+}
+.carousel-slide {
+    height: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+.carousel-slide div {
+    height: 100%;
+    width: 100%;
+    color: rgb(249, 246, 246);
+    background-color: rgb(146, 234, 234);
 }
