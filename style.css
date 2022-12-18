@@ -87,11 +87,17 @@ h1 {
     scroll-behavior: smooth;
 }
 .carousel-slide > div {
-    height: 100%;
+    height: 20vh;
     width: 100%;
     color: rgb(249, 246, 246);
     background-color: rgb(146, 234, 234);
 }
 h4 {
     padding-top: 5px;
+}
+#slide1 {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
 }
