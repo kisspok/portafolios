@@ -101,11 +101,8 @@ h4 {
     display: flex;
     justify-content: center;
     background-color: var(--main-color);
-    height: 150px;
+    height: 100px;
     padding-top: 2vh;
 }
-#slide1 {
-    
 
-}
 
