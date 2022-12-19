@@ -97,12 +97,13 @@ h1 {
 h4 {
     padding-top: 5px;
 }
-.redes {
-    display: flex;
-    justify-content: center;
+.redes-container {
     background-color: var(--main-color);
-    height: 100px;
-    padding-top: 2vh;
+    height: 25vh;
+    width: 100%;
 }
-
-
+.iconos >  {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
