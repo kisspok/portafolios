@@ -20,6 +20,7 @@ form {
     background-color: #d2cadf;
     padding: 20px 20px 20px 20px;
     font-size: 0.8rem;
+    border-radius: 5%;
 }
 .enviar {
     background-color: rgba(22, 13, 200, 0.385);
